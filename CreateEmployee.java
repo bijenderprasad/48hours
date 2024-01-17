@@ -26,6 +26,7 @@ public class CreateEmployee {
 	@Test  (dependsOnMethods = "navigateToRegisterPage")
 	public void enterfirstname() {
 		test.registerkeyword.enterfirstname(firstname, "Bijender");
+		console.log("HOTSPOTFIX-37");
 	}
 @Test
 public void navigatetohomepage() {
