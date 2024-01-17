@@ -71,7 +71,7 @@ public class ComplexGuiExample extends JFrame {
     // Intentional logical error: perform a complex operation using a random number
     private int performComplexOperation(int input) {
         // Simulate a complex operation
-        return input * 2 + 1;
+        return input * 2 + 11;
     }
 
     public static void main(String[] args) {
