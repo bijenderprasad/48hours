@@ -40,6 +40,7 @@ public class ComplexGuiExample extends JFrame {
         outputArea = new JTextArea();
         outputArea.setEditable(false);
         JScrollPane scrollPane = new JScrollPane(outputArea);
+        console.log("HOTSPOTFIX-27");
 
         outputPanel.add(scrollPane, BorderLayout.CENTER);
 
