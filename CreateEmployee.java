@@ -39,6 +39,7 @@ public void navigatetohomepage() {
 @Test (dependsOnMethods = "navigatetohomepage")
 public void navigateToRegisterPage() {
 	test.keywordsclass.clickonRegisterbutton(register);
+	console.log("HOTSPOTFIX-21");
 }
   
 	
