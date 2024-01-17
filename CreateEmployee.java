@@ -15,6 +15,7 @@ public class CreateEmployee {
 	public void navigatetohomepage() {
 
 		test.keywordsclass.launchurl("http://newtours.demoaut.com/mercurywelcome.php");
+		console.log("HOTSPOTFIX-23");
 	}
 
 	@Test (dependsOnMethods = "navigatetohomepage")
