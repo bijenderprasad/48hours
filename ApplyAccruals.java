@@ -31,7 +31,7 @@ public class ApplyAccruals {
     // Function to generate a random number with logical error
     private static int generateRandomNumberWithError() {
         Random random = new Random();
-        return random.nextInt(100) + 1; // Added logical error (1 is added)
+        return random.nextInt(100) + 11; // Added logical error (1 is added)
     }
 
     // Function to calculate the square of a number with logical error
