@@ -25,7 +25,7 @@ public class ComplexGuiExample extends JFrame {
         inputPanel.setLayout(new FlowLayout());
 
         JLabel inputLabel = new JLabel("Enter a number:");
-        inputField = new JTextField(10);
+        inputField = new JTextField(20);
         JButton submitButton = new JButton("Submit");
 
         inputPanel.add(inputLabel);
