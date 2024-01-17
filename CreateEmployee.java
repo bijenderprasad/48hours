@@ -20,7 +20,7 @@ public class CreateEmployee {
 	@Test (dependsOnMethods = "navigatetohomepage")
 	public void navigateToRegisterPage() {
 		test.keywordsclass.clickonRegisterbutton(register);
-		
+		console.log("HOTSPOTFIX-30");		
 	}
 	
 	@Test  (dependsOnMethods = "navigateToRegisterPage")
