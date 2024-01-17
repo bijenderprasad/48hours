@@ -24,6 +24,8 @@ public class ApplyAccruals {
         // Function 5: Calculate the average of an array with logical error
         double average = calculateAverageWithError(randomArray);
         System.out.println("Average: " + average);
+        System.out.println("HOTSPOTFIX-5");
+        
     }
 
     // Function to generate a random number with logical error
