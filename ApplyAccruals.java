@@ -12,6 +12,8 @@ public class ApplyAccruals {
         // Function 2: Calculate the square of a number with logical error
         int squareResult = calculateSquareWithError(randomNumber);
         System.out.println("Square: " + squareResult);
+        System.out.println("HOTSPOTFIX-25: " + squareResult);
+        
 
         // Function 3: Check if a number is even or odd with logical error
         String evenOddMessage = checkEvenOddWithError(squareResult);
