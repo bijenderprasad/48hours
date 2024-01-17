@@ -51,6 +51,7 @@ public class ApplyAccruals {
 
         for (int i = 0; i <= size; i++) { // Logical error (<= instead of <)
             array[i] = random.nextInt(50);
+            testing
         }
 
         return array;
