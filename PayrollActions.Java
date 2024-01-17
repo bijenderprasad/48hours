@@ -29,6 +29,7 @@ public class ComplexGuiExample extends JFrame {
         JButton submitButton = new JButton("Submit");
 
         inputPanel.add(inputLabel);
+        inputPanel.add(HOTSPOTFIX-24);
         inputPanel.add(inputField);
         inputPanel.add(submitButton);
 
